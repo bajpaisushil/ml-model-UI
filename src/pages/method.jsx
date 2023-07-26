@@ -86,7 +86,7 @@ function Method() {
             <label>Predictions</label>
           </div>
         </div>
-        <div className="btn btn-primary suggest-btn my-3" onClick={handleOutput}>Suggest</div>
+        <div className="btn btn-primary suggest-btn my-3" >Suggest</div>
         {display && 
           <div className="methods-model-name">Best Model: Model Name</div>
         }
