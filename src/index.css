@@ -5,7 +5,7 @@
 .child-component-1{
     flex: 75%;
     border-right: 2px solid grey;
-    margin: 1rem;
+    
 }
 .child-component-2{
     flex: 25%;
@@ -13,5 +13,6 @@
 
 .sidebar-headings{
     font-size: 1.2rem;
+    text-align: center;
     font-weight: 600;
 }

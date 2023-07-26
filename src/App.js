@@ -6,6 +6,8 @@ import TopBar from './components/TopBar';
 import UseCases from './pages/UseCases';
 import XAI from './pages/XAI';
 import API from './pages/API';
+import Method from './pages/method';
+
 
 function App() {
   return (
@@ -18,11 +20,9 @@ function App() {
         <Route path='/use-cases' element={<UseCases />} />
         <Route path='/xai' element={<XAI />} />
         <Route path='/api' element={<API />} />
+        <Route path='/methods' element={<Method />} /> 
       </Routes>
       <BottomBar />
-      </div>
-      <div className='app-rightpart'>
-
       </div>
       </BrowserRouter>
     </div>

@@ -44,13 +44,16 @@ function TopBar() {
         <div className='topbar-right'>
         <ul className='topbar-container'>
                 <li className='topbar-list'>
-                    <Link to='/use-cases' className='topbar-right-links'>Use Cases</Link>
-                </li>
-                <li className='topbar-list'>
                     <Link to='/xai' className='topbar-right-links'>XAI</Link>
                 </li>
                 <li className='topbar-list'>
                     <Link to='/api' className='topbar-right-links'>API</Link>
+                </li>
+                <li className='topbar-list'>
+                    <Link to='/use-cases' className='topbar-right-links'>Use Cases</Link>
+                </li>
+                <li className='topbar-list'>
+                    <Link to='/methods' className='topbar-right-links'>Methods</Link>
                 </li>
             </ul>
         </div>
